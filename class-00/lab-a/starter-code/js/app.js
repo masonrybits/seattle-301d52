@@ -37,7 +37,7 @@ function displayPics(){
     console.log(rando);
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `var to `let`.
-  // The variable rando is scoped to the code block of the displayPics function. When running it outside the function, it is not accessible globally.
+  // The variable rando is scoped to the code block of the displayPics function. When running it outside the function, it was not accessible globally.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
